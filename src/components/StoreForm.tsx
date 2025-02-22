@@ -114,7 +114,7 @@ const StoreForm = () => {
 
                 <div>
                   <h3 className="text-sm font-medium text-gray-700 flex items-center">
-                    <Globe className="h-5 w-5 text-gray-400 mr-2"  />
+                    <Globe className="h-5 w-5 text-gray-400 mr-2 hover:fill-blue-500"  />
                     Domain Name
                   </h3>
                   <p className="mt-1 text-sm text-gray-500">
@@ -124,7 +124,7 @@ const StoreForm = () => {
 
                 <div>
                   <h3 className="text-sm font-medium text-gray-700 flex items-center">
-                    <MapPin className="h-5 w-5 text-gray-400 mr-2" />
+                    <MapPin className="h-5 w-5 text-gray-400 mr-2 hover:fill-blue-500" />
                     Store Location
                   </h3>
                   <p className="mt-1 text-sm text-gray-500">
@@ -134,7 +134,7 @@ const StoreForm = () => {
 
                 <div>
                   <h3 className="text-sm font-medium text-gray-700 flex items-center">
-                    <Category className="h-5 w-5 text-gray-400 mr-2" />
+                    <Category className="h-5 w-5 text-gray-400 mr-2 hover:fill-blue-500" />
                     Store Category
                   </h3>
                   <p className="mt-1 text-sm text-gray-500">
@@ -144,7 +144,7 @@ const StoreForm = () => {
 
                 <div>
                   <h3 className="text-sm font-medium text-gray-700 flex items-center">
-                    <Coins className="h-5 w-5 text-gray-400 mr-2" />
+                    <Coins className="h-5 w-5 text-gray-400 mr-2 hover:fill-blue-500" />
                     Store Currency
                   </h3>
                   <p className="mt-1 text-sm text-gray-500">
@@ -154,10 +154,10 @@ const StoreForm = () => {
 
                 <div>
                   <h3 className="text-sm font-medium text-gray-700 flex items-center">
-                    <Mail className="h-5 w-5 text-gray-400 mr-2" />
+                    <Mail className="h-5 w-5 text-gray-400 mr-2 hover:fill-blue-500" />
                     Contact Email
                   </h3>
-                  <p className="mt-1 text-sm text-gray-500">
+                  <p className="mt-1 text-sm text-gray-500 hover:fill-blue-500">
                     This is the email you'll use to send notifications to and receive orders from customers.
                   </p>
                 </div>
@@ -242,6 +242,7 @@ const StoreForm = () => {
                     <option value="Electronics">Electronics</option>
                     <option value="Home">Home</option>
                     <option value="Beauty">Beauty</option>
+                    <option value="other">Other</option>
                   </select>
                 </div>
 
