@@ -130,13 +130,11 @@ No environment variables are required for this project as all API endpoints are 
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👥 Authors
 
-- Your Name - *Initial work* - [YourGithub](https://github.com/yourusername)
+- Saikat Ghosh - * React-Online-store* - Github profile: https://github.com/saikatghosh3
 
 ## 🙏 Acknowledgments
 
